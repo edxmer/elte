@@ -1,0 +1,17 @@
+    1  ls
+    2  ln -s /proc/kallsyms kernel_symbols
+    3  ls
+    4  sleep 9000
+    5  jobs
+    6  bg %1
+    7  jobs
+    8  jobs
+    9  fg %1
+   10  history > history.txt
+    1  ps aux
+    2  kill -SIGTSTP 30614
+    3  ps aux
+    4  kill -SIGSTOP 30614
+    5  ps aux
+    6  kill -9 30614
+    7  history > history_t2.txt

@@ -1,0 +1,37 @@
+    4  clear
+    5  echo "\"Hello, World\""
+    6  envvars=`env`
+    7  echo $envvars
+    8* read before2
+    9  echo "$envvars" > $before
+   10  echo "$envvars" > "$before"
+   11  ls
+   12  cat "Lo megy nyihahaha"
+   13  current=`date`
+   14  read after
+   15  export after
+   16  envvars=`env`
+   17  cat "$envvars" > "$after"
+   18  echo "$envvars" > "$after"
+   19  ls
+   20  cat "Tehen moo"
+   21  cat "Tehen mooo"
+   22  export current
+   23  envvars=`env`
+   24  echo "$envvars" > "$after"
+   25  cat "Tehen mooo"
+   26  man wc
+   27  wc -l "Lo megy nyihahaha" > lines_before
+   28  wc -l "Tehen mooo" > lines_after
+   29  expr ( `cat lines_after` - `cat lines_before` ) \* 10 
+   30  cat lines_after
+   31  expr ( `cat lines_after | cut -d" " -f1` - `cat lines_before | cut -d" " -f1` ) \* 10 
+   32  cat lines_after | cut -d" " -f1
+   33  cat before | cut -d" " -f1
+   34  cat lines_before | cut -d" " -f1
+   35  expr ( "`cat lines_after | cut -d" " -f1`" - "`cat lines_before | cut -d" " -f1` )" \* 10 
+   36  expr ( 30 - 28 ) \* 10
+   37  expr \( 30 - 28 \) \* 10
+   38  expr \( `cat lines_after | cut -d" " -f1` - `cat lines_before | cut -d" " -f1` \) \* 10 
+   39  # nice
+   40  history > history.log

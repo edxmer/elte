@@ -1,0 +1,9 @@
+Tisztelt <nev>!
+
+Szeretnélek meghívni az idei Mikulás találkozóra.
+Lesz sok csokis keksz, meleg tej és forró csoki. 
+
+A találkozó időpontja <idopont>, a helyszín pedig <cim> lesz.
+
+Várunk szeretettel!
+- Tél 'Mikulás' Apó és csapata
