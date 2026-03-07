@@ -13,7 +13,7 @@
 ### Courses:
 - Programming languages (java): `semester1/java`
 - Object oriented programming (c#): `semester1/oep`
-- Web development (html, css, js): [https://github.com/edxmer/personal-website](github)
+- Web development (html, css, js): [github](https://github.com/edxmer/personal-website)
 - Algorithms & data structures I: `semester1/algo1`
 - Calculus I
 - Discrete mathematics I
