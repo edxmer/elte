@@ -10,7 +10,7 @@ public class CaesarCipherTest {
         assertEquals("Hello there", cipher.encrypt("Hello there"));
     }
 
-    @ParameterizedTest(name = "encryption {1} by {0} shift to get {2}")
+    @ParameterizedTest(name = "encrypt {1} by {0} shift to get {2}")
     @CsvSource("""
     1, abc, bcd
     5, abc, fgh
