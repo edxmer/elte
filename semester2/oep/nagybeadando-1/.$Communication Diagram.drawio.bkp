@@ -1,0 +1,86 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="d-ccNfD9w5bDXIcqJCwe">
+    <mxGraphModel dx="823" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-4" edge="1" parent="1" source="Bq4oNpY3ps89Gob4gNqv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="Bq4oNpY3ps89Gob4gNqv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Main()" vertex="1">
+          <mxGeometry height="60" width="30" x="130" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-9" edge="1" parent="1" source="Bq4oNpY3ps89Gob4gNqv-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;endFill=0;startSize=12;" target="Bq4oNpY3ps89Gob4gNqv-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-15" edge="1" parent="1" source="Bq4oNpY3ps89Gob4gNqv-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;endArrow=none;endFill=0;startSize=12;" target="Bq4oNpY3ps89Gob4gNqv-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-3" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;u&gt;:Királyság&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="250" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-5" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=8;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="170" y="165" as="sourcePoint" />
+            <mxPoint x="230" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Cselekvés()&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="167" y="136" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-10" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=8;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="386" y="169" as="sourcePoint" />
+            <mxPoint x="446" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;SérültE()&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Gyógyul()&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;GetTartomány()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Megy(t:Tartomány)&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Harcol()&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="85" width="93" x="387" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-13" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;u&gt;:Lovag&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="480" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-12" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;u&gt;:Lovag&lt;/u&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="470" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-8" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;u&gt;:Lovag&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="460" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-17" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;u&gt;:Tartomány&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="270" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-16" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;u&gt;:Tartomány&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="260" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-14" parent="1" style="html=1;whiteSpace=wrap;" value="&lt;u&gt;:Tartomány&lt;/u&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="250" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-18" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=8;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="320" y="215" as="sourcePoint" />
+            <mxPoint x="320" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;GetTípus()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Elfoglal()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="93" x="329" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-20" edge="1" parent="1" source="Bq4oNpY3ps89Gob4gNqv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.031;exitY=1.047;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=cross;startFill=0;endArrow=open;endFill=0;" target="Bq4oNpY3ps89Gob4gNqv-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="305" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-21" edge="1" parent="1" style="endArrow=block;endFill=1;endSize=8;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="480" y="227" as="sourcePoint" />
+            <mxPoint x="480" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bq4oNpY3ps89Gob4gNqv-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Sebez()&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Felszabadít()&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="93" x="487" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
