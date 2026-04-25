@@ -1,0 +1,6 @@
+Planet
+Tatooine
+3
+Wallbreaker Ship1 30 60 100
+Lasership Ship2 70 60 200
+Landingship Ship3 40 50 50
