@@ -1,0 +1,108 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="uoERKrM5btrXocxZai7Z">
+    <mxGraphModel dx="996" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-56" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;k : Királyság&lt;/u&gt;" vertex="1">
+          <mxGeometry height="70" width="170" x="158" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-57" parent="NzThBOiV7DUpJ9z0OxOx-56" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;tartomanyok = &amp;lt; t1, t2, t3 &amp;gt;&lt;br&gt;&lt;div&gt;lovagok = &amp;lt; l1, l2, l3 &amp;gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-81" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=1;endSize=12;" target="NzThBOiV7DUpJ9z0OxOx-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-89" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;startArrow=cross;startFill=0;" target="NzThBOiV7DUpJ9z0OxOx-71" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="570" />
+              <mxPoint x="735" y="570" />
+              <mxPoint x="735" y="270" />
+            </Array>
+            <mxPoint x="710" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-61" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;l1 : Lovag&lt;/u&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="20" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-62" parent="NzThBOiV7DUpJ9z0OxOx-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;tipus = Bator&lt;/div&gt;&lt;div&gt;nev = &quot;Kardos&quot;&lt;/div&gt;&lt;div&gt;eletero = 70&lt;/div&gt;&lt;div&gt;hely = t2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="130" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-82" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=1;endSize=12;" target="NzThBOiV7DUpJ9z0OxOx-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-87" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;startArrow=cross;startFill=0;" target="NzThBOiV7DUpJ9z0OxOx-74" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="540" />
+              <mxPoint x="750" y="540" />
+              <mxPoint x="750" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-63" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;l2 : Lovag&lt;/u&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="178" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-64" parent="NzThBOiV7DUpJ9z0OxOx-63" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;tipus = Vakmero&lt;/div&gt;&lt;div&gt;nev = &quot;Ször Lovag&quot;&lt;/div&gt;&lt;div&gt;eletero = 40&lt;/div&gt;&lt;div&gt;hely = t3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="130" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-83" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamondThin;endFill=1;endSize=12;" target="NzThBOiV7DUpJ9z0OxOx-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-85" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;startArrow=cross;startFill=0;" target="NzThBOiV7DUpJ9z0OxOx-69" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="455" />
+              <mxPoint x="720" y="160" />
+            </Array>
+            <mxPoint x="425" y="455" as="sourcePoint" />
+            <mxPoint x="657" y="144.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-65" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;l3 : Lovag&lt;/u&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="340" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-66" parent="NzThBOiV7DUpJ9z0OxOx-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;tipus = Ovatos&lt;/div&gt;&lt;div&gt;nev = &quot;Lovas&quot;&lt;/div&gt;&lt;div&gt;eletero = 100&lt;/div&gt;&lt;div&gt;hely = t1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="130" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-69" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;t1 : Tartomány&lt;/u&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="522" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-70" parent="NzThBOiV7DUpJ9z0OxOx-69" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;tipus = Kiralyi&lt;/div&gt;&lt;div&gt;nev = &quot;Királyi Buda&quot;&lt;/div&gt;ellenfelEletero = 0" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-71" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;t2 : Tartomány&lt;/u&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="522" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-72" parent="NzThBOiV7DUpJ9z0OxOx-71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;tipus = Ellenseges&lt;/div&gt;&lt;div&gt;nev = &quot;Ó Miskolc&quot;&lt;/div&gt;ellenfelEletero = 80" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-74" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;t3 : Tartomány&lt;/u&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="522" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-75" parent="NzThBOiV7DUpJ9z0OxOx-74" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;tipus = Semleges&lt;/div&gt;&lt;div&gt;nev = &quot;New York&quot;&lt;/div&gt;ellenfelEletero = 0" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-78" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;startSize=12;" target="NzThBOiV7DUpJ9z0OxOx-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="253" />
+              <mxPoint x="430" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NzThBOiV7DUpJ9z0OxOx-80" edge="1" parent="1" source="NzThBOiV7DUpJ9z0OxOx-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=diamondThin;startFill=1;startSize=12;" target="NzThBOiV7DUpJ9z0OxOx-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="253" />
+              <mxPoint x="430" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

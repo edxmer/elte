@@ -1,0 +1,448 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="10ceY5AX83uM8TU8rXef">
+    <mxGraphModel dx="3215" dy="2578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6iYGNVwnziPoldUdajlp-23" edge="1" parent="1" source="6iYGNVwnziPoldUdajlp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=16;startArrow=diamondThin;startFill=0;startSize=16;" target="6iYGNVwnziPoldUdajlp-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Királyság" vertex="1">
+          <mxGeometry height="242" width="400" x="122.5" y="84.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-190" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- lovagIdx:int" vertex="1">
+          <mxGeometry height="26" width="400" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-3" parent="6iYGNVwnziPoldUdajlp-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="400" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-40" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Királyság (ls:Lovag*, ts:Tartomany*)" vertex="1">
+          <mxGeometry height="26" width="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-4" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Cselekvés():void" vertex="1">
+          <mxGeometry height="26" width="400" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-6" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Befejezodott():bool" vertex="1">
+          <mxGeometry height="26" width="400" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-212" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Semlegesít(idx:int):void" vertex="1">
+          <mxGeometry height="26" width="400" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-213" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Elfoglal(idx:int):void" vertex="1">
+          <mxGeometry height="26" width="400" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-187" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- ÉlőLovagokSzáma():int" vertex="1">
+          <mxGeometry height="26" width="400" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-188" parent="6iYGNVwnziPoldUdajlp-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- KirályiTartományokSzáma():int" vertex="1">
+          <mxGeometry height="26" width="400" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;i&gt;Lovag&lt;/i&gt;" vertex="1">
+          <mxGeometry height="464" width="325" x="1170" y="-28" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-18" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- név: string { getter }" vertex="1">
+          <mxGeometry height="26" width="325" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-19" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- eletero: int" vertex="1">
+          <mxGeometry height="26" width="325" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-86" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- helyIdx: int" vertex="1">
+          <mxGeometry height="26" width="325" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-20" parent="6iYGNVwnziPoldUdajlp-16" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="325" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-81" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Lovag(név:string)" vertex="1">
+          <mxGeometry height="26" width="325" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-143" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Lovag(név:string, k:Királyság)" vertex="1">
+          <mxGeometry height="26" width="325" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-69" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Cselekvés(): void" vertex="1">
+          <mxGeometry height="26" width="325" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-101" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Meghalt(): bool" vertex="1">
+          <mxGeometry height="26" width="325" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-158" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Hely():Tartomany" vertex="1">
+          <mxGeometry height="26" width="325" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-156" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Sebez(dmg:int): void" vertex="1">
+          <mxGeometry height="26" width="325" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-21" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;i&gt;# Sérült(): bool { abstract }&lt;/i&gt;" vertex="1">
+          <mxGeometry height="26" width="325" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-110" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;i&gt;# Harcol(): void { abstract }&lt;/i&gt;" vertex="1">
+          <mxGeometry height="26" width="325" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-136" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;i&gt;# GyógyulásiFaktor(): int { abstract, query }&lt;/i&gt;" vertex="1">
+          <mxGeometry height="26" width="325" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-138" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;i&gt;# TámadásiFaktor(): int { abstract, query }&lt;/i&gt;" vertex="1">
+          <mxGeometry height="26" width="325" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-85" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- KirályiTartománybaVisszatér(): void" vertex="1">
+          <mxGeometry height="26" width="325" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-106" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Gyógyul(): void" vertex="1">
+          <mxGeometry height="26" width="325" y="412" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-164" parent="6iYGNVwnziPoldUdajlp-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- KövetkezőTartomány(): void" vertex="1">
+          <mxGeometry height="26" width="325" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="1110" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..1" vertex="1">
+          <mxGeometry height="30" width="60" x="522.5" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-30" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;Tartomány" vertex="1">
+          <mxGeometry height="152" width="362.5" x="140" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-89" parent="6iYGNVwnziPoldUdajlp-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- név: string { getter }" vertex="1">
+          <mxGeometry height="26" width="362.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-72" parent="6iYGNVwnziPoldUdajlp-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# idx:int" vertex="1">
+          <mxGeometry height="26" width="362.5" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-34" parent="6iYGNVwnziPoldUdajlp-30" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="362.5" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-93" parent="6iYGNVwnziPoldUdajlp-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Tartomany(név:string)" vertex="1">
+          <mxGeometry height="26" width="362.5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-134" parent="6iYGNVwnziPoldUdajlp-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Tartomany(név:string, k:Királyság, idx:int)" vertex="1">
+          <mxGeometry height="26" width="362.5" y="126" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-42" edge="1" parent="1" source="6iYGNVwnziPoldUdajlp-1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;startArrow=diamondThin;startFill=1;startSize=16;endArrow=none;endFill=0;" target="6iYGNVwnziPoldUdajlp-30" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points" />
+            <mxPoint x="492.5" y="332" as="sourcePoint" />
+            <mxPoint x="572.5" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- lovagok&lt;div&gt;{ getter }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1110" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..1" vertex="1">
+          <mxGeometry height="30" width="60" x="322.5" y="333.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1..*" vertex="1">
+          <mxGeometry height="30" width="60" x="322.5" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- királyság" vertex="1">
+          <mxGeometry height="30" width="60" x="522.5" y="209" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-48" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="BátorLovag" vertex="1">
+          <mxGeometry height="190" width="310" x="1177.5" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-51" parent="6iYGNVwnziPoldUdajlp-48" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-99" parent="6iYGNVwnziPoldUdajlp-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ BátorLovag(név:string):bool" vertex="1">
+          <mxGeometry height="26" width="310" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-178" parent="6iYGNVwnziPoldUdajlp-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ BátorLovag(név:string, hely:Tartomany, k:Királyság)" vertex="1">
+          <mxGeometry height="26" width="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-177" parent="6iYGNVwnziPoldUdajlp-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Sérült():bool" vertex="1">
+          <mxGeometry height="26" width="310" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-149" parent="6iYGNVwnziPoldUdajlp-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- GyógyulásiFaktor(): int" vertex="1">
+          <mxGeometry height="26" width="310" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-151" parent="6iYGNVwnziPoldUdajlp-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- TámadásiFaktor(): int" vertex="1">
+          <mxGeometry height="26" width="310" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-171" parent="6iYGNVwnziPoldUdajlp-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Harcol():void" vertex="1">
+          <mxGeometry height="26" width="310" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-168" edge="1" parent="1" source="6iYGNVwnziPoldUdajlp-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" target="6iYGNVwnziPoldUdajlp-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-55" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="VakmerőLovag" vertex="1">
+          <mxGeometry height="190" width="320" x="1520" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-58" parent="6iYGNVwnziPoldUdajlp-55" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="320" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-179" parent="6iYGNVwnziPoldUdajlp-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ VakmerőLovag(név:string):bool" vertex="1">
+          <mxGeometry height="26" width="320" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-180" parent="6iYGNVwnziPoldUdajlp-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ VakmerőLovag(név:string, hely:Tartomany, k:Királyság)" vertex="1">
+          <mxGeometry height="26" width="320" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-100" parent="6iYGNVwnziPoldUdajlp-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Sérült():bool" vertex="1">
+          <mxGeometry height="26" width="320" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-150" parent="6iYGNVwnziPoldUdajlp-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- GyógyulásiFaktor(): int" vertex="1">
+          <mxGeometry height="26" width="320" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-152" parent="6iYGNVwnziPoldUdajlp-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- TámadásiFaktor(): int" vertex="1">
+          <mxGeometry height="26" width="320" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-172" parent="6iYGNVwnziPoldUdajlp-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Harcol():void" vertex="1">
+          <mxGeometry height="26" width="320" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-169" edge="1" parent="1" source="6iYGNVwnziPoldUdajlp-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="6iYGNVwnziPoldUdajlp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-61" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ÓvatosLovag" vertex="1">
+          <mxGeometry height="190" width="310" x="840" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-64" parent="6iYGNVwnziPoldUdajlp-61" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-175" parent="6iYGNVwnziPoldUdajlp-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ÓvatosLovag(név:string):bool" vertex="1">
+          <mxGeometry height="26" width="310" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-176" parent="6iYGNVwnziPoldUdajlp-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ÓvatosLovag(név:string, hely:Tartomany, k:Királyság)" vertex="1">
+          <mxGeometry height="26" width="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-66" parent="6iYGNVwnziPoldUdajlp-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Sérült():bool" vertex="1">
+          <mxGeometry height="26" width="310" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-140" parent="6iYGNVwnziPoldUdajlp-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- GyógyulásiFaktor(): int" vertex="1">
+          <mxGeometry height="26" width="310" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-142" parent="6iYGNVwnziPoldUdajlp-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- TámadásiFaktor(): int" vertex="1">
+          <mxGeometry height="26" width="310" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-170" parent="6iYGNVwnziPoldUdajlp-61" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Harcol():void" vertex="1">
+          <mxGeometry height="26" width="310" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-54" edge="1" parent="1" source="6iYGNVwnziPoldUdajlp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=block;startFill=1;startSize=13;" target="6iYGNVwnziPoldUdajlp-48" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="501.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- tartományok&lt;div&gt;{ getter }&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="222.5" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- királyság" vertex="1">
+          <mxGeometry height="30" width="100" x="223.75" y="333.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-91" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.Lovag(név:string, k:Királyság)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;helyIdx := 0; eletero := 100&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;this.név := név&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;királyság := k&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="285" x="2010" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-97" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.KirályiTartománybaVisszatér():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;while !(Hely() is KirályiTartomány) do&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;helyIdx -= 1&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="250" x="2010" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-102" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.Meghalt():bool&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return eletero &amp;lt;= 0&lt;/p&gt;" vertex="1">
+          <mxGeometry height="38" width="150" x="2010" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-103" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ÓvatosLovag.Sérült():bool&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return eletero &amp;lt;= 90&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="750" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-104" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BátorLovag.Sérült():bool&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return eletero &amp;lt;= 40&lt;/p&gt;" vertex="1">
+          <mxGeometry height="38" width="160" x="1220" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-105" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;VakmerőLovag.Sérült():bool&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return false&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="180" x="1680" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-107" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.Gyógyul():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !( Hely() is KirályiTartomány ) then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;eletero += random(0, GyógyulásiFaktor())&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if 100&amp;lt;eletero then eletero:=100 endif&lt;/p&gt;" vertex="1">
+          <mxGeometry height="83" width="300" x="2010" y="642" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-111" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ÓvatosLovag.Harcol():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !(hely is EllenségesTartomány ) then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sebzés := random(0, TámadásiFaktor())&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Sebez(sebzés)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="77.5" width="290" x="750" y="1199.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-112" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EllenségesTartomány" vertex="1">
+          <mxGeometry height="190" width="307.5" x="167.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-113" parent="6iYGNVwnziPoldUdajlp-112" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- ellenfelEletero: int" vertex="1">
+          <mxGeometry height="26" width="307.5" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-114" parent="6iYGNVwnziPoldUdajlp-112" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="307.5" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-115" parent="6iYGNVwnziPoldUdajlp-112" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ EllenségesTartomány(név:string)" vertex="1">
+          <mxGeometry height="26" width="307.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-196" parent="6iYGNVwnziPoldUdajlp-112" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ EllenségesTartomány(név:string, k:Királyság, idx:int)" vertex="1">
+          <mxGeometry height="26" width="307.5" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-154" parent="6iYGNVwnziPoldUdajlp-112" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Sebez(dmg:int):void" vertex="1">
+          <mxGeometry height="26" width="307.5" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-155" parent="6iYGNVwnziPoldUdajlp-112" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Halott():bool" vertex="1">
+          <mxGeometry height="26" width="307.5" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-132" parent="6iYGNVwnziPoldUdajlp-112" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Semlegesít():void" vertex="1">
+          <mxGeometry height="26" width="307.5" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-116" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SemlegesTartomány" vertex="1">
+          <mxGeometry height="112" width="307.5" x="512.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-117" parent="6iYGNVwnziPoldUdajlp-116" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="307.5" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-118" parent="6iYGNVwnziPoldUdajlp-116" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ SemlegesTartomány(név:string)" vertex="1">
+          <mxGeometry height="26" width="307.5" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-197" parent="6iYGNVwnziPoldUdajlp-116" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ SemlegesTartomány(név:string, k:Királyság, idx:int)" vertex="1">
+          <mxGeometry height="26" width="307.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-198" parent="6iYGNVwnziPoldUdajlp-116" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ TartományElfoglalása()" vertex="1">
+          <mxGeometry height="26" width="307.5" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-119" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="KirályiTartomány" vertex="1">
+          <mxGeometry height="86" width="280" x="-150" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-121" parent="6iYGNVwnziPoldUdajlp-119" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-130" parent="6iYGNVwnziPoldUdajlp-119" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ KirályiTartomány(név:string)" vertex="1">
+          <mxGeometry height="26" width="280" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-195" parent="6iYGNVwnziPoldUdajlp-119" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ KirályiTartomány(név:string, k:Királyság, idx:int)" vertex="1">
+          <mxGeometry height="26" width="280" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-123" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="6iYGNVwnziPoldUdajlp-116" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="321" y="690" />
+              <mxPoint x="710" y="690" />
+            </Array>
+            <mxPoint x="321.25" y="677" as="sourcePoint" />
+            <mxPoint x="521.25" y="752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-124" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6iYGNVwnziPoldUdajlp-119" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="321" y="690" />
+              <mxPoint x="-10" y="690" />
+            </Array>
+            <mxPoint x="321.25" y="680.5" as="sourcePoint" />
+            <mxPoint x="331.25" y="750.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-125" edge="1" parent="1" source="6iYGNVwnziPoldUdajlp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=block;startFill=1;startSize=13;" target="6iYGNVwnziPoldUdajlp-112" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321.25" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-135" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Királyság.Királyság(ls:Lovag*, t:sTartomány*)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if t.Length = 0 then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;lovagIdx := 0&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;lovagok := new List&amp;lt;Lovag&amp;gt;()&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;tartományok := new List&amp;lt;Tartomány&amp;gt;()&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;foreach l in ls do&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if l is ÓvatosLovag then&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;lovagok.Add(new ÓvatosLovag(l.név, this))&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;else if l is BátorLovag then&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;lovagok.Add(new BátorLovag(l.név, this))&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;else&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;lovagok.Add(new VakmerőLovag(l.név, this))&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;élőLovagokSzáma += 1&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;done&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;i:=0&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;foreach t in ts do&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if t is KirályiTartomány then&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;tartományok.Add(new KirályiTartomány(t.név, this, i) )&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;else if t is EllenségesTartomány then&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;tartományok.Add(new EllenségesTartomány(t.név, this, i) )&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;else&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;tartományok.Add(new SemlegesTartomány(t.név, this, i) )&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;i += 1&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !(tartományok[0] is KirályiTartomány) then error endif&lt;/p&gt;" vertex="1">
+          <mxGeometry height="690" width="380" x="-820" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-139" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ÓvatosLovag.TámadásiFaktor():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return 20&lt;/p&gt;" vertex="1">
+          <mxGeometry height="43.5" width="210" x="750" y="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-144" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ÓvatosLovag.GyógyulásiFaktor():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return 20&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="220" x="750" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-145" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BátorLovag.GyógyulásiFaktor():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return 30&lt;/p&gt;" vertex="1">
+          <mxGeometry height="42" width="210" x="1220" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-146" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BátorLovag.TámadásiFaktor():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return 40&lt;/p&gt;" vertex="1">
+          <mxGeometry height="37.5" width="200" x="1220" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-147" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VakmerőLovag&lt;/b&gt;&lt;b&gt;.TámadásiFaktor():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return 40&lt;/p&gt;" vertex="1">
+          <mxGeometry height="47.5" width="220" x="1680" y="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-148" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VakmerőLovag&lt;/b&gt;&lt;b&gt;.GyógyulásiFaktor():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return 40&lt;/p&gt;" vertex="1">
+          <mxGeometry height="39.5" width="230" x="1680" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-157" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.Sebez(dmg:int):void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !(Hely() is EllenségesTartomány ) then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;eletero -= dmg&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hely().Sebez(dmg)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="83" width="292.5" x="2010" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-160" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.Hely():Tartomany&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return királyság.tartományok[helyIdx]&lt;/p&gt;" vertex="1">
+          <mxGeometry height="52" width="225" x="2010" y="397" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-161" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.Lovag(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;helyIdx := 0; eletero := 100&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;this.név := név&lt;/p&gt;" vertex="1">
+          <mxGeometry height="60" width="285" x="2010" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-163" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.Cselekvés():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if Meghalt() then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if Sérült() &amp;amp;&amp;amp; !(Hely() is KirályiTartomány) then&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;KirályiTartománybaVisszatér()&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;else if Sérült() &amp;amp;&amp;amp; Hely() is KirályiTaromány then&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Gyógyul()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;else if this is BátorLovag &amp;amp;&amp;amp; Hely() is EllenségesTartomány then&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Harcol()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if Hely().Halott() then Hely().Semlegesít() endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;else&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;KövetkezőTartomány()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if Hely() is SemlegesTartomány &amp;amp;&amp;amp; (this is BátorLovag || this is VakmerőLovag) then&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Hely().TartományElfoglalása()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;else if Hely() is EllenségesTartomány then&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Harcol()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if Hely().Halott() then Hely().Semlegesít() endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;end&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;" vertex="1">
+          <mxGeometry height="430" width="495" x="2010" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-165" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Lovag.KövetkezőTartomány():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;helyIdx := (helyIdx + 1) % királyság.tartományok.Length&lt;/p&gt;" vertex="1">
+          <mxGeometry height="47" width="340" x="2010" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-173" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BátorLovag.Harcol():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !(hely is EllenségesTartomány ) then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sebzés := random(0, TámadásiFaktor())&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Sebez(sebzés)&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !Sérült() then&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;sebzés := random(0, TámadásiFaktor())&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Sebez(sebzés)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150.5" width="290" x="1220" y="1199.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-174" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BátorLovag.Harcol():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !(hely is EllenségesTartomány ) then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;while !(Halott() || Hely().Halott()) do&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sebzés := random(0, TámadásiFaktor())&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Sebez(sebzés)&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130.5" width="290" x="1680" y="1199.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-181" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ÓvatosLovag.&lt;/b&gt;&lt;b&gt;ÓvatosLovag&lt;/b&gt;&lt;b&gt;(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Lovag(név)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="750" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-182" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ÓvatosLovag.&lt;/b&gt;&lt;b&gt;ÓvatosLovag&lt;/b&gt;&lt;b&gt;(név:string, k:Királyság)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Lovag(név, k)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="410" x="750" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-183" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BátorLovag.&lt;/b&gt;&lt;b&gt;&amp;nbsp;BátorLovag&lt;/b&gt;&lt;b&gt;(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Lovag(név)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="1220" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-184" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BátorLovag&lt;/b&gt;&lt;b&gt;.&lt;/b&gt;&lt;b&gt;&amp;nbsp;BátorLovag&lt;/b&gt;&lt;b&gt;(név:string, hely:Tartomany, k:Királyság)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Lovag(név, hely, k)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="410" x="1220" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-185" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VakmerőLovag&lt;/b&gt;&lt;b&gt;.&lt;/b&gt;&lt;b&gt;VakmerőLovag&lt;/b&gt;&lt;b&gt;(név:string, hely:Tartomany, k:Királyság)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Lovag(név, hely, k)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="420" x="1680" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-186" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VakmerőLovag&lt;/b&gt;&lt;b&gt;.VakmerőLovag&lt;/b&gt;&lt;b&gt;(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Lovag(név)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="1680" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-189" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Királyság.Cselekvés():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;lovagok[lovagIdx].Cselekvés()&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;lovagIdx := (lovagIdx + 1) % lovagok.Length&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="300" x="-820" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-192" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Királyság.Befejeződött():bool&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return ÉlőLovagokSzáma() = 0 || KirályiTartományokSzáma() = tartományok.Length&lt;/p&gt;" vertex="1">
+          <mxGeometry height="50" width="450" x="-820" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-193" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Királyság.ÉlőLovagokSzáma():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;db := 0&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;foreach lovag in lovagok do&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if not lovag.Meghalt() then&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;db += 1&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;endif&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return db&lt;/p&gt;" vertex="1">
+          <mxGeometry height="154" width="450" x="-830" y="652" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-194" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Királyság.KirályiTartományokSzáma():int&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;db := 0&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;foreach t in tartomanyok do&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;if t is KirályiTartomány then&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;db += 1&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;endif&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;end&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return db&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="450" x="-830" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-199" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tartomány.Tartomány(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;this.név := név&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="130" y="1218.25" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-200" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Tartomány.Tartomány(név:string, k:Királyság, idx:int)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;this.név := név&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;királyság := k&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;this.idx := idx&lt;/p&gt;" vertex="1">
+          <mxGeometry height="94" width="250" x="130" y="1272.25" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-202" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;KiralyiTartomány.&lt;/b&gt;&lt;b&gt;KiralyiTartomány&lt;/b&gt;&lt;b&gt;(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Tartomány(név)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="-810" y="1018" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-203" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;KiralyiTartomány.&lt;/b&gt;&lt;b&gt;KiralyiTartomány&lt;/b&gt;&lt;b&gt;(név:string, k:Királyság, idx:int)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Tartomány(név, k, idx)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="390" x="-810" y="1068" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-204" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EllenségesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;EllenségesTartomány&lt;/span&gt;&lt;b&gt;(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Tartomány(név); ellenfelEletero := 100&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="347.5" x="-390" y="1018" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-205" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EllenségesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;EllenségesTartomány&lt;/span&gt;&lt;b&gt;(név:string, k:Királyság, idx:int)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Tartomány(név, k, idx); ellenfelEletero := 100&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="467.5" x="-390" y="1066" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-206" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SemlegesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;SemlegesTartomány&lt;/span&gt;&lt;b&gt;(név:string)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Tartomány(név)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="347.5" x="130" y="1018" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-208" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SemlegesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;&amp;nbsp;SemlegesTartomány&lt;/span&gt;&lt;b&gt;(név:string, k:Királyság, idx:int)&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;Tartomány(név, k, idx)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="467.5" x="130" y="1068" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-209" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EllenségesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Sebez&lt;/span&gt;&lt;b&gt;(dmg:int):void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;ellenfelEletero -= dmg&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="-390" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-210" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EllenségesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Halott&lt;/span&gt;&lt;b&gt;():bool&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;return ellenfelEletero &amp;lt;= 0&amp;nbsp;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="-390" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-211" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;EllenségesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Semlegesít&lt;/span&gt;&lt;b&gt;():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;királyság.Semlegesít(idx)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="41.75" width="290" x="-390" y="1218.25" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-214" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Királyság.Semlegesít(idx:int):void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;régi := tartományok[idx]&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !(régi is EllenségesTartomány) then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;új := new SemlegesTartomány(régi.név, this, idx)&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;tartományok[idx] := új&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;delete régi&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="450" x="-820" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-215" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SemlegesTartomány&lt;/span&gt;&lt;b&gt;.&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;TartományElfoglalása&lt;/span&gt;&lt;b&gt;():void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;királyság.Elfoglal(idx)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="44.25" width="302.5" x="130" y="1117.88" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-216" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Királyság.Elfoglal(idx:int):void&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;régi := tartományok[idx]&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;if !(régi is SemlegesTartomány) then error endif&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;új := new Királyi(régi.név, this, idx)&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;tartományok[idx] := új&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; padding-left: 5px;&quot;&gt;delete régi&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="450" x="-820" y="502" as="geometry" />
+        </mxCell>
+        <mxCell id="6iYGNVwnziPoldUdajlp-217" edge="1" parent="1" source="6iYGNVwnziPoldUdajlp-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="6iYGNVwnziPoldUdajlp-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
