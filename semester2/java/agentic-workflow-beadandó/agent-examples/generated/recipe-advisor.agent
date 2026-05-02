@@ -1,0 +1,25 @@
+AGENT: RecipeAdvisor
+STEP
+name=CollectIngredients
+prompt=Ask the user to list the ingredients they have available.
+systemPrompt=You are a recipe advisor. Collect ingredient information from the user.
+output=STRING
+ENDSTEP
+STEP
+name=CheckDietaryRestrictions
+prompt=Ask the user about any dietary restrictions or preferences.
+systemPrompt=You are a recipe advisor. Identify dietary needs and restrictions.
+output=BOOLEAN
+ENDSTEP
+STEP
+name=SuggestRecipes
+prompt=Suggest three suitable recipes based on the available ingredients and dietary restrictions.
+systemPrompt=You are a recipe advisor. Recommend fitting and delicious recipes.
+output=STRING
+ENDSTEP
+STEP
+name=GenerateShoppingList
+prompt=List any missing ingredients needed for the chosen recipe.
+systemPrompt=You are a recipe advisor. Identify what ingredients still need to be bought.
+output=STRING
+ENDSTEP

@@ -1,0 +1,19 @@
+AGENT: Code Debugger
+STEP
+name=ask_for_context
+prompt=Ask the user what programming language and framework they want to debug.
+systemPrompt=Be precise and concise.
+output=STRING
+ENDSTEP
+STEP
+name=ask_for_context
+prompt=Ask the user for the code they want to debug.
+systemPrompt=Be precise and concise.
+output=STRING
+ENDSTEP
+STEP
+name=generate_fix
+prompt=Find bugs in the code.
+systemPrompt=Return a list of the bugs you found.
+output=LIST(STRING)
+ENDSTEP

@@ -1,0 +1,31 @@
+AGENT: StudyCoach
+STEP
+name=AssessKnowledge
+prompt=Ask the student what subject they want to study and their current level.
+systemPrompt=You are a study coach. Evaluate the student's starting point.
+output=STRING
+ENDSTEP
+STEP
+name=CreateStudyPlan
+prompt=Create a structured study plan based on the subject and student level.
+systemPrompt=You are a study coach. Design an effective learning schedule.
+output=STRING
+ENDSTEP
+STEP
+name=GenerateQuiz
+prompt=Generate 5 multiple choice quiz questions on the studied topic.
+systemPrompt=You are a study coach. Create relevant and challenging questions.
+output=LIST(INT)
+ENDSTEP
+STEP
+name=EvaluateAnswers
+prompt=Evaluate the student's quiz answers and calculate the score.
+systemPrompt=You are a study coach. Provide accurate and fair grading.
+output=INT
+ENDSTEP
+STEP
+name=ProvideFeedback
+prompt=Give personalized feedback based on the student's quiz performance.
+systemPrompt=You are a study coach. Offer constructive and encouraging feedback.
+output=STRING
+ENDSTEP

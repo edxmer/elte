@@ -1,0 +1,31 @@
+AGENT: TravelPlanner
+STEP
+name=GatherPreferences
+prompt=Ask the user for their travel destination, dates, and budget.
+systemPrompt=You are a travel planning assistant. Collect trip requirements.
+output=STRING
+ENDSTEP
+STEP
+name=SearchFlights
+prompt=Find available flights matching the user's destination and dates.
+systemPrompt=You are a travel planning assistant. Search for flight options.
+output=LIST(INT)
+ENDSTEP
+STEP
+name=SearchHotels
+prompt=Find available hotels at the destination within the user's budget.
+systemPrompt=You are a travel planning assistant. Search for hotel options.
+output=LIST(INT)
+ENDSTEP
+STEP
+name=CheckWeather
+prompt=Retrieve the weather forecast for the destination during travel dates.
+systemPrompt=You are a travel planning assistant. Provide weather information.
+output=STRING
+ENDSTEP
+STEP
+name=SummarizePlan
+prompt=Generate a complete travel itinerary based on the gathered information.
+systemPrompt=You are a travel planning assistant. Summarize the full trip plan.
+output=STRING
+ENDSTEP

@@ -1,0 +1,19 @@
+AGENT: Calculator
+STEP
+name=ParseInput
+prompt=Extract two numbers and an operator from the user's input.
+systemPrompt=You are a calculator assistant. Parse arithmetic expressions.
+output=STRING
+ENDSTEP
+STEP
+name=PerformCalculation
+prompt=Perform the arithmetic operation on the two parsed numbers.
+systemPrompt=You are a calculator assistant. Compute the result.
+output=INT
+ENDSTEP
+STEP
+name=FormatResult
+prompt=Format the result into a human-readable response.
+systemPrompt=You are a calculator assistant. Present results clearly.
+output=STRING
+ENDSTEP

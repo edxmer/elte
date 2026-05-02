@@ -1,0 +1,31 @@
+AGENT: CustomerSupport
+STEP
+name=GreetCustomer
+prompt=Welcome the customer and ask them to describe their issue.
+systemPrompt=You are a customer support agent. Be polite and professional.
+output=STRING
+ENDSTEP
+STEP
+name=CategorizeIssue
+prompt=Identify the category of the customer's issue: billing, technical, or shipping.
+systemPrompt=You are a customer support agent. Accurately classify the issue type.
+output=STRING
+ENDSTEP
+STEP
+name=CheckOrderStatus
+prompt=Look up the customer's order or account status based on their provided ID.
+systemPrompt=You are a customer support agent. Retrieve accurate account information.
+output=BOOLEAN
+ENDSTEP
+STEP
+name=ProposeResolution
+prompt=Suggest an appropriate resolution based on the issue category and order status.
+systemPrompt=You are a customer support agent. Offer fair and practical solutions.
+output=STRING
+ENDSTEP
+STEP
+name=CollectSatisfactionScore
+prompt=Ask the customer to rate their satisfaction with the support on a scale of 1 to 5.
+systemPrompt=You are a customer support agent. Collect feedback professionally.
+output=INT
+ENDSTEP
