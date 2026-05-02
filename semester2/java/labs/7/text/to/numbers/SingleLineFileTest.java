@@ -10,7 +10,7 @@ public class SingleLineFileTest {
     @Test
     public void CorrectFileReadTest() {
         try {
-            int sum = SingleLineFile.addNumbers("correct_file.txt");
+            int sum = SingleLineFile.addNumbers("test_inputs/correct_file.txt");
             assertEquals(-117, sum);
         } catch (Exception e) { fail("Exception thrown: %s".formatted(e.getMessage())); }
     }
@@ -18,7 +18,7 @@ public class SingleLineFileTest {
     @Test
     public void EmptyFile() {
         try {
-            SingleLineFile.addNumbers("empty_file.txt");
+            SingleLineFile.addNumbers("test_inputs/empty_file.txt");
         } 
         catch (IOException e) { fail("Wrong exception thrown: IOException."); return; }
         catch (IllegalArgumentException e) { return; }

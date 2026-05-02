@@ -18,6 +18,7 @@ public class SingleLineFile {
             int sum = 0;
             for (String token : tokens) {
                 try {
+                    
                     int value = Integer.parseInt(token);
                     sum += value;
                 }
