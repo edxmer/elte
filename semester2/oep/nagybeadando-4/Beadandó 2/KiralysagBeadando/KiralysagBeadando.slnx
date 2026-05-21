@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="KiralysagBeadando.Tests/KiralysagBeadando.Tests.csproj" />
+  <Project Path="KiralysagBeadando/KiralysagBeadando.csproj" />
+</Solution>
