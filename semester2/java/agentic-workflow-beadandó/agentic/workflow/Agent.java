@@ -30,6 +30,7 @@ public class Agent {
         if (name == null || name.isBlank()) throw new IllegalArgumentException();
         this.name = name;
         steps = new ArrayList<WorkflowStep>();
+        stepNames = new HashSet<String>();
     }
 
     

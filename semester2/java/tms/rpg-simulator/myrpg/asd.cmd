@@ -1,0 +1,1 @@
+echo hello nem engedi feltolteni enelkul 🥀

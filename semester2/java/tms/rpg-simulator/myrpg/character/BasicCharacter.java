@@ -4,9 +4,9 @@ import myrpg.common.Element;
 import myrpg.action.Attack;
 
 public class BasicCharacter implements Combatant {
-    private final String name;
-    private final Element element, weakness;
-    private final int maxHealth, attackPower;
+    private String name;
+    private Element element, weakness;
+    private int maxHealth, attackPower;
     private int health;
 
     // << constructor >>
@@ -32,8 +32,8 @@ public class BasicCharacter implements Combatant {
 
     // << methods >>
     public Attack attack() {
-        if (health*5 <= maxHealth) return new Attack(element, attackPower*2);
-        return new Attack(element, attackPower);
+        int damage = (health*5 <= maxHealth) ? attackPower*2 : attackPower;
+        return new Attack(element, damage);
     }
 
     public void takeDamage(Attack a) {
