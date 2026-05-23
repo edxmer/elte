@@ -42,7 +42,7 @@ public class Team {
     }
     
     // << methods >>
-    public void addMemeber(BasicCharacter c) {
+    public void addMember(BasicCharacter c) {
         members.add(c);
     }
 
